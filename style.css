@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+a {transition:all 0.3s ease 0s;text-decoration:none;}
+a, a:hover {
+  color: #6318DD;
+  text-decoration: none;
+}
+a:active, a:hover, a:focus {
+  outline: 0 none;
+  text-decoration: none;
+}
+img {max-width:100%;}
+strong {font-weight:500;}
+ul.list-none {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+body {
+	font-family: "Inter", sans-serif;
+	font-size:18px;
+	line-height:30px;
+	color:#0C111F99;
+	font-weight:normal;
+	transition:.3s;
+	overflow-x:hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+}
+.btn-common {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: capitalize;
+  text-decoration: none;
+  border: 1px solid #6318DD;
+  padding: 13px 20px;
+  border-radius: 50px;
+  display: inline-block;
+}
+.btn-common.btn-active, .btn-common:hover {
+  background-color:#6318DD;
+  color:#ffffff;
+}
+.section-title h2 {
+  font-size:55px;
+  font-weight: 700;
+  color:#2D3134;
+}
+.section-title h3 {
+  font-size:44px;
+  font-weight: 700;
+  line-height: 1.2;
+  color:#121212;
+}
+.section-title.style-2 h2 {
+  font-size:45px;
+}
+.section-subtitle {
+  color: #E960F5;
+  font-size: 25px;
+  display: block;
+  margin-bottom: 15px;
+}
+.ml-20 {margin-left: 20px;}
+/*----------------------------------------*/
+/*  2.  Header Area CSS
+/*----------------------------------------*/
+.header-area {
+  padding:50px 0;
+}
+.stick, .header-bottom.with-shadow.stick {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
+  -webkit-animation: 900ms cubic-bezier(0.2, 1, 0.22, 1) 0s normal none 1 running fadeInDown;
+  animation: 900ms cubic-bezier(0.2, 1, 0.22, 1) 0s normal none 1 running fadeInDown;
+  border-bottom: 0;
+  padding: 16px 0;
+}
+.mainmenu ul {
+  margin:0;
+  padding:0;
+  list-style: none;;
+}
+.mainmenu > ul li {
+  display: inline-block;
+  margin-right: 23px;
+}
+.mainmenu ul li a {
+  font-size:18px;
+  font-weight:400;
+  color:#000000;
+  padding: 0;
+}
+.mainmenu.stellarnav {
+  width: auto;
+}
+/*----------------------------------------*/
+/*  3.  Banner CSS
+/*----------------------------------------*/
+.banner-text {
+  font-size:24px;
+  line-height: 1.2;
+  color:#616161;
+  padding-top: 75px;
+}
+.banner-subtitle {
+  background-color: #ffffff;
+  box-shadow: 0px 173.929px 69.5716px rgba(253, 73, 247, 0.01), 0px 98.1733px 58.7494px rgba(253, 73, 247, 0.05), 0px 43.289px 43.289px rgba(253, 73, 247, 0.09), 0px 10.8223px 23.9636px rgba(253, 73, 247, 0.1);
+  border-radius: 15.4604px;
+  font-size:18px;
+  background: -webkit-linear-gradient(#6318DD, #D03BE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding:15px 20px 15px 20px;
+  margin-bottom: 25px;
+}
+.banner-title {
+  font-size:60px;
+  font-weight: 700;
+  color:#000000;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+.banner-title span {
+  background: -webkit-linear-gradient(#6318DD, #D03BE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-images {
+  position: relative;
+  float: right;
+}
+.trip-over {
+  position: absolute;
+  left: -223px;
+  bottom: -255px;
+}
+.banner-buttons {
+  margin-top: 45px;
+}
+.banner-btn-1 {
+  border-color: transparent;
+}
+.banner-btn-1, .banner-btn-2:hover {
+  background: linear-gradient(132.75deg, #6318DD -5.33%, #D03BE8 108.08%);
+  box-shadow: 0px 71px 29px rgba(99, 56, 255, 0.01), 0px 40px 24px rgba(99, 56, 255, 0.05), 0px 18px 18px rgba(99, 56, 255, 0.09), 0px 4px 10px rgba(99, 56, 255, 0.1);
+  color:#ffffff;
+}
+.banner-btn-2:hover {
+  border-color: transparent;
+}
+.banner-btn-2 {
+  margin-left: 30px;
+}
+/*----------------------------------------*/
+/*  4.  Travel Desitnation
+/*----------------------------------------*/
+.travel-destination-area {
+  margin-top: 165px;
+}
+.travel-destinations {
+  padding-top: 20px;
+}
+.travel-destinations .slick-slider .slick-arrow {
+  background: transparent;
+  width: 54px;
+  height: 54px;
+  padding: 0;
+  line-height: 52px;
+  border: 1px solid #2D3134 !important;
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  color: #2D3134;
+  transition: all .2s ease-in-out 0s;
+  position: absolute;
+  top: -135px;
+  right: 15px;
+  z-index: 9;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  border-radius: 100%;
+}
+.travel-destinations .slick-slider .slick-arrow:hover {
+  background: linear-gradient(132.75deg, #6318DD -5.33%, #D03BE8 108.08%);
+  color:#ffffff;
+  border:1px solid transparent !important;
+}
+.travel-destinations .slick-slider .arrow_carrot-left.slick-arrow {
+  right: 85px;
+}
+.destination-items .slick-slider .arrow_carrot-right.slick-arrow {
+  top: -35px;
+}
+.single-travel-card {
+  background-color: #ffffff;
+  padding: 12px 12px 35px 12px;
+  margin: 0 15px;
+  border-radius: 20px;
+  width: 385px;
+}
+.single-travel-card .travel-card-desc {
+  font-size:16px;
+  color:#5B5F62;
+  padding-top: 20px;
+}
+.single-travel-card .travel-card-desc h3 {
+  font-size:24px;
+  font-weight: 700;
+  color:#2D3134;
+}
+.travel-card-desc, .travel-card-action {
+  padding: 0 10px;
+}
+.single-travel-card .travel-price {
+  font-size: 24px;
+  font-weight: 600;
+  color:#2D3134;
+}
+.single-travel-card .travel-price sub {
+  font-size: 16px;
+  font-weight: 400;
+}
+.single-travel-card .btn-common {
+  border-color: #2D3134;
+  color:#2D3134;
+}
+.single-travel-card .btn-common:hover {
+  color:#ffffff;
+}
+/*----------------------------------------*/
+/*  4.  Why Choose
+/*----------------------------------------*/
+.why-choose-area {
+  padding-top: 100px;
+}
+.choose-left {
+  position: relative;
+}
+.pupular-destination-area .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+.pupular-destination-area .container {
+  clip-path: inset( -100vw -100vw -100vw 0 );
+}
+.travel-destinations .slick-slide {
+  max-width:385px !important;
+  filter: drop-shadow(0px 50px 77px rgba(224, 112, 255, 0.01)) drop-shadow(0px 30px 65px rgba(224, 112, 255, 0.05)) drop-shadow(0px 48px 48px rgba(224, 112, 255, 0.09)) drop-shadow(0px 12px 27px rgba(224, 112, 255, 0.1));
+}
+.choose-right {
+  padding-left: 40px;
+}
+.choose-list {
+  margin-top: 40px;
+}
+.choose-list ul {
+  margin: 0 0 0 20px;
+  padding: 0;
+  list-style: none;
+}
+.choose-list ul li {
+  padding: 20px 0 20px 20px;
+  transition: .3s;
+  margin-bottom: 10px;
+  position: relative;
+}
+.choose-list ul li::before {
+  box-shadow: -33px 139px 57px rgba(238, 43, 222, 0.01), -19px 78px 48px rgba(238, 43, 222, 0.05), -8px 35px 36px rgba(238, 43, 222, 0.09), -2px 9px 20px rgba(238, 43, 222, 0.1);
+  border-radius: 10px;
+  position: absolute;
+  top:0;
+  left:0;
+  width:0;
+  height:100%;
+  content:"";
+  transition: .4s;
+
+}
+.choose-list ul li:hover::before {
+ width:100%;
+}
+.choose-text {
+  font-size: 16px;
+  color:#636363;
+}
+.choose-text p {
+  margin: 0;
+}
+.choose-icon {
+  margin-right: 15px;
+}
+.choose-text h4 {
+  font-size: 24px;
+  font-weight:700;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+.choose-more {
+  font-size: 24px;
+  font-weight: 700;
+  color: #121212;
+  padding-left: 50px;
+}
+.choose-more i {
+  line-height: 1;
+  position: relative;
+  top: 4px;
+}
+.destination-percentage {
+  background-color: #ffffff;
+  border-radius: 14px;
+  text-align: center;
+  position: absolute;
+  bottom: 48px;
+  left: 20px;
+  box-shadow: 10px 14px 60px -3px rgba(174, 165, 115, 0.08);
+  padding: 23px 32px;
+}
+.destination-percentage img {
+  margin-bottom: 33px;
+}
+.destination-percentage .percentage-grew {
+  margin-bottom: 0;
+}
+.destination-percentage .percentage-grew, .touriest-number  span {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 10px;
+  color:#0F0F0F;
+}
+.touriest-number {
+  background-color: #ffffff;
+  display: flex;
+  border-radius: 14px;
+  position: absolute;
+  bottom: 48px;
+  right: 0;
+  box-shadow: 10px 14px 60px -3px rgba(174, 165, 115, 0.08);
+  padding: 23px 32px;
+  padding-left: 32px;
+  padding-left: 10px;
+  width: 200px;
+  height: 106px;
+  align-items: start;
+}
+.touriest-number  span {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+.touriest-number small {
+  font-size: 14px;
+  line-height: 1;
+  color:#949596;
+  display: block;
+  margin-top: 10px;
+}
+.tourist-left {
+  width: 64px;
+  flex: 0 0 54px;
+}
+.slick-list {
+  overflow: inherit;
+  position: relative;
+  right: -150px;
+}
+.travel-destination-area .container {
+  clip-path: inset( -100vw -100vw -100vw 0 );
+}
+.slick-slider {
+  margin:0 -15px;
+}
+.slick-slide {
+  margin-right:15px;
+  margin-left:15px;
+}
+.percentage-grew {
+  display: block !important;
+  margin-bottom: 0;
+}
+#odometer .odometer-inside::after {
+  content:"%";
+}
+#touristnumber .odometer-inside::after {
+  content:"+";
+}
+/*----------------------------------------*/
+/*  top-destination-area
+/*----------------------------------------*/
+.top-destination-area {
+  padding-bottom: 100px;
+  padding-top: 90px;
+}
+.destination-items {
+  margin-right: calc(-40px);
+  margin-left: calc(-40px);
+}
+.destination-items div[class^="col-"] {
+  padding: 0 40px;
+}
+.top-destination-menu {
+  margin-bottom: 40px;
+}
+.top-destination-menu ul {
+  text-align: right;
+}
+.top-destination-menu ul li {
+  display: inline-block;
+  font-size: 18px;
+  color:#19182580;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.top-destination-menu ul li.active {
+  color:#6318DD;
+}
+.top-destination-menu ul li:hover {
+  color:#222831;
+}
+.single-travel-card.style-2 {
+  background-color: transparent;
+  margin: 0;
+  margin-bottom: 0px;
+  margin-bottom: 50px;
+  filter: unset;
+  width: unset;
+  padding: 0;
+}
+.single-travel-card.style-2 .travel-card-thumb {
+  box-shadow: inset 6.80632px 0px 19.4466px rgba(255, 255, 255, 0.15);
+  border-radius: 44px;
+  position: relative;
+}
+.place-rating {
+  background: rgba(12, 17, 31, 0.24);
+  box-shadow: inset 7.37252px 0px 21.0643px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4.21287px);
+  border-radius: 48.448px;
+  width: 100px;
+  height: 46px;
+  position: absolute;
+  top:20px;
+  right:30px;
+  text-align: center;
+  padding: 7px 0;
+  color:#ffffff;
+}
+.place-rating i {
+  color:#FFCD6B;
+  margin-right: 15px;
+}
+.single-travel-card.style-2 .travel-place {
+  font-size: 16px;
+  font-weight: 500;
+  color:#0C111F99;
+  display: block;
+}
+.single-travel-card.style-2 .travel-price {
+  font-size: 23px;
+  font-weight: 700;
+  color:#0C111F;
+}
+.single-travel-card.style-2 .travel-price small {
+  font-size: 14px;
+  font-weight: 500;
+  color:#0C111F47;
+}
+.travel-action .btn-common {
+  background: linear-gradient(132.75deg, #6318DD -5.33%, #D03BE8 108.08%);
+  position: relative;
+  border: 0;
+  color:#ffffff;
+  overflow: hidden;
+}
+.travel-action .btn-common:hover {
+  background: unset;
+}
+.travel-action .btn-common::before {
+  background: linear-gradient(132.75deg, #6318DD -5.33%, #D03BE8 108.08%);
+  position: absolute;
+  right:0;
+  top:0;
+  content:"";
+  width:0;
+  height:100%;
+  transition: .3s;
+  border-radius: 50px;
+  z-index: 1;
+  overflow: hidden;
+}
+.travel-action .btn-common:hover::before {
+  width:100%;
+}
+.travel-action .btn-common span {
+  position: relative;
+  z-index: 2;
+}
+.single-travel-card.style-2 .travel-card-action {
+  background-color: #F7F7F780;
+  border-radius: 0 0 25px 25px;
+  padding: 15px;
+  margin-top: 42px;
+}

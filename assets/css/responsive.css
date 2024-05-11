@@ -1,0 +1,303 @@
+/* Extra Large desktop :1920px. */
+@media (min-width: 1400px) and (max-width: 1920px) {
+	
+
+}
+
+/* Extra Large desktop :1920px. */
+@media (min-width: 992px) and (max-width: 1920px) {
+
+.container {padding:0;}
+
+.mainmenu > ul > li::before, .mainmenu > ul > li::after {
+    background-color: #6318DD;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    content: "";
+    transition: .3s;
+}
+.mainmenu > ul > li::after {
+    left:unset;
+    right:0;
+}
+.mainmenu > ul > li:hover::before, .mainmenu > ul > li:hover::after {
+    width:50%;
+}
+.mainmenu > ul > li:last-child {
+    margin-right: 0;
+}
+.mainmenu ul li a {
+  padding: 5px 0;
+}
+}
+
+/* Large desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1399px) {
+	
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+.mainmenu ul li a {
+	font-size: 16px;
+}
+.banner-subtitle {
+  padding: 10px 20px 10px 20px;
+}
+.banner-text {
+	font-size: 18px;
+	line-height: 30px;
+}
+.banner-title {
+  font-size: 44px;
+}
+.trip-over {
+  left: -190px;
+  bottom: -215px;
+}
+.section-title h2 {
+  font-size: 44px;
+  line-height: 56px;
+}
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.header-area {
+	padding: 25px 0;
+}
+.header-area.stick {
+	padding: 15px 0;
+}
+}
+/* Tablet desktop :991px. */
+@media (max-width: 991px) {
+.section-title h2 {
+	font-size: 36px;
+	line-height: 1.2;
+}
+.section-subtitle {
+  font-size: 18px;
+}
+.section-title.style-2 h2 {
+	font-size: 36px;
+	line-height: 48px;
+}
+.section-title h3 {
+  font-size: 36px;
+}
+.banner-subtitle {
+	font-size: 16px;
+	padding: 10px 15px 10px 15px;
+}
+.banner-title {
+	font-size: 44px;
+}
+.banner-text {
+  font-size: 18px;
+  line-height: 30px;
+	padding-top: 40px;
+}
+.banner-images {
+	float: unset;
+	margin-top: 45px;
+	text-align: center;
+	display: none;
+}
+.trip-over {
+  left: -180px;
+}
+.travel-destinations .slick-slide {
+  margin-right: 0;
+  margin-left: 0;
+}
+.travel-destinations .slick-slider .slick-arrow {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  line-height: 38px;
+  top: -90px;
+}
+.travel-destinations .slick-slider .arrow_carrot-left.slick-arrow {
+  right: 70px;
+}
+/* why-choose */
+.choose-right {
+  padding-left: 0;
+}
+/* travel-destination */
+.travel-destination-area {
+	margin-top: -55px;
+}
+.travel-destination-area .container {
+  clip-path: unset;
+}
+.destination-items div[class^="col-"] {
+  padding: 0 15px;
+}
+.single-travel-card.style-2 {
+	margin-bottom: 30px;
+}
+.travel-destinations .slick-list {
+	right: unset;
+}
+.single-travel-card {
+  width: auto;
+}
+.top-destination-menu ul li {
+  font-size: 16px;
+  margin-left: 14px;
+}
+.single-travel-card.style-2 .travel-price small {
+  display: block;
+}
+.destination-items {
+	margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+}
+
+/* Large Mobile :767px. */
+@media (max-width: 767px) {
+.section-title h2, .section-title h3 {
+	font-size: 30px;
+}
+.section-subtitle {
+	margin-bottom: 0;
+}
+.stick, .header-bottom.with-shadow.stick {
+	padding: 5px 0;
+}
+/* banner */
+.banner-text {
+	padding-top: 0;
+}
+.banner-title {
+	font-size: 36px;
+}
+.destination-percentage img {
+  margin-bottom: 23px;
+  width: 50px;
+}
+.destination-percentage {
+  padding: 15px 20px;
+}
+.destination-percentage h5, .touriest-number h5 {
+  font-size: 18px;
+}
+.touriest-number {
+  padding: 15px 24px;
+  padding-left: 24px;
+  padding-left: 32px;
+  padding-left: 5px;
+  width: auto;
+  height: auto;
+}
+.top-destination-menu ul {
+  text-align: left;
+	margin-left: -14px;
+}
+.destination-items div[class^="col-"] {
+	padding: 0 10px;
+}
+.single-travel-card.style-2 .travel-card-action {
+  flex-wrap: wrap;
+}
+.travel-action {
+	margin-top: 10px;
+}
+.single-travel-card .travel-card-desc {
+  padding-left: 0;
+}
+.single-travel-card .travel-card-desc h3 {
+  font-size: 20px;
+}
+.travel-card-desc, .travel-card-action {
+  padding: 0;
+}
+.place-rating {
+  width: 80px;
+  height: 35px;
+  top: 15px;
+  right: 15px;
+  padding: 3px 0;
+}
+.why-choose-area {
+  padding-top: 80px;
+}
+}
+
+@media only screen and (max-width: 575px) {
+.section-title h2, .section-title h3 {
+	font-size: 24px;
+}
+.header-area {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.stick, .header-bottom.with-shadow.stick {
+	padding: 5px 0;
+}
+.choose-list ul {
+	margin: 0;
+}
+.travel-card-thumb img {
+	width: 100%;
+}
+.choose-text h4 {
+  font-size: 18px;
+}
+.choose-more {
+  font-size: 18px;
+}
+}
+
+@media only screen and (max-width: 375px) {
+.slick-slider {
+	margin: 0;
+}
+.logo {
+  width: 130px;
+}
+.banner-title {
+	font-size: 30px;
+}
+.banner-buttons {
+  margin-top: 15px;
+}
+.banner-buttons .btn-common {
+	display: block;
+	text-align: center;
+}
+.banner-btn-2 {
+	margin-left: 0;
+	margin-top: 15px;
+}
+.single-travel-card {
+	max-width: 300px;
+}
+.touriest-number {
+	padding: 15px 10px;
+	padding-left: 5px;
+}
+.destination-percentage {
+	padding: 10px 10px;
+}
+.travel-destination-area {
+	margin-top: 30px;
+}
+.choose-right {
+	padding-top: 20px;
+}
+.choose-more {
+  font-size: 18px;
+	margin-left: 30px;
+}
+}
+
